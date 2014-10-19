@@ -55,8 +55,8 @@ def get_dependence(package_name):
     command_head = sb.Popen( head, stdin = command_full_list.stdout, stdout = sb.PIPE )
     command_dep_and_pred = sb.Popen( dep_and_pred, stdin = command_head.stdout, stdout = sb.PIPE )
     command_dependence = sb.Popen ( dependence, stdin = command_dep_and_pred.stdout, stdout = sb.PIPE )
-    
-  out, err = command_dependence.communicate()
+
+    out, err = command_dependence.communicate()
     #cut Depends:
     if out != b"":
         try:
