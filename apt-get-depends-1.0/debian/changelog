@@ -1,0 +1,5 @@
+apt-get-depends (1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Anatoly BUrtsev <onotole@yandex-team.ru>  Fri, 19 Sep 2014 14:06:14 +0400

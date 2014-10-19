@@ -1,0 +1,15 @@
+Source: apt-get-depends
+Section: misc
+Priority: optional
+Maintainer: Anatoly Burtsev <onotole@yandex-team.ru>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.9.3
+Homepage: http://www.yandex.ru
+
+Package: apt-get-depends
+Section: misc
+Priority: optional
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: script for upgrade deb package with all dependences
+ upgrade deb package with all dependences
