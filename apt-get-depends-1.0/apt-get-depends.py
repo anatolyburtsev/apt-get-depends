@@ -126,7 +126,7 @@ def get_list_of_lists_to_install(package_name):
     predepdep_list = uniq(predepdep_list)
     depdepdep_list = uniq(depdepdep_list)
 
-    return [prepredep_list, deppredep_list, predepdep_list, depdepdep_list]
+    return [prepredep_list, deppredep_list, predepdep_list, depdepdep_list, predep_list, dep_list, [package_name]]
 
 def install_all(package_name,noupdate):
     #list of lists sorted in logical order (pre pre dependence, dependence of predependence and so on    
