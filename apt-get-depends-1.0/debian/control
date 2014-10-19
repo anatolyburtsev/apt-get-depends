@@ -10,6 +10,6 @@ Package: apt-get-depends
 Section: misc
 Priority: optional
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3
 Description: script for upgrade deb package with all dependences
  upgrade deb package with all dependences
