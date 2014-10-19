@@ -8,8 +8,7 @@ import subprocess as sb
 
 def parse():
     AP = argparse.ArgumentParser( description = "update dep package with all dependences" )
-    #AP.add_argument( '--depth', '-d', type=int, default=2, dest='depth', help = "depth of update. fox ex: depth=1 just update packag
-e and its dependences" )
+    #AP.add_argument( '--depth', '-d', type=int, default=2, dest='depth', help = "depth of update. fox ex: depth=1 just update packag e and its dependences" )
     AP.add_argument( '--no-update', '-n', action='store_false', dest='noupdate', help = "Do not perform apt-get update" )
     AP.add_argument( 'package_name', default=None)
     return AP.parse_args()
