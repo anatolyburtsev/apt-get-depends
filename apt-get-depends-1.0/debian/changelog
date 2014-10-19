@@ -1,3 +1,9 @@
+apt-get-depends (1.0-4) unstable; urgency=low
+
+  * fix: install predep, dep and package too
+
+ -- Anatoly BUrtsev <onotole@yandex-team.ru>  Mon, 20 Oct 2014 00:54:11 +0400
+
 apt-get-depends (1.0-3) unstable; urgency=low
 
   * fix problem with spaces
